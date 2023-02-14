@@ -56,18 +56,22 @@ const getPartidas = () => {
       )
       return newPartida;
   }
-  const deletePartida = (id) => {
-      delete data.partidas[id] 
-      return data.partidas
-  }
+//**** Peticiones Juegos *****
+
+const getJuegos = () => {
+    const juegos = data.juegos
+    return juegos
+};
+
+const getJuego = (nombre) => {
+    const juego = data.juegos[nombre]
+    return juego
+}
 
 module.exports = {
-    getJugadores,
-    postJugador,
-    getJugador,
-    deleteJugador,
-    getPartidas,
-    getPartida,
-    postPartida,
-    deletePartida
+    getJugadores,postJugador,getJugador,deleteJugador,
+    
+    getPartidas,getPartida,postPartida,
+    
+    getJuegos,getJuego
 };

@@ -7,9 +7,6 @@ const controllers = require("../../controllers/controllers")
 router.route("/jugadores")
   .get(controllers.getJugadores) //GET ALL PRODUCTS
   .post(controllers.postJugador); //INSERT ONE PRODUCT
-router.route("/partidas")
-  .get(controllers.getPartidas) //GET PARTIDAS)
-  .post(controllers.postPartida); //INSERT PARTIDA)
 
   
 router.route("/jugadores/:jug")
@@ -17,10 +14,17 @@ router.route("/jugadores/:jug")
     .delete(controllers.deleteJugador) //DELETE ONE PRODUCT
     .put() //UPDATE ONE PRODUT
 
+router.route("/partidas")
+  .get(controllers.getPartidas) //GET PARTIDAS)
+  .post(controllers.postPartida); //INSERT PARTIDA)
+  
+
 router.route("/partidas/:part")
-    .get()
-    .delete()
-    .put()
+    .get(controllers.getPartida)
 
+router.route("/juegos")
+  .get(controllers.getJuegos);
 
+router.route("/juegos/:game")
+  .get(controllers.getJuego)
 module.exports.router = router

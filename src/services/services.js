@@ -51,10 +51,6 @@ const getPartida = (id) => {
   const partida = modelos.getPartida(id)
   return partida 
 }
-const deletePartida = (id) => {
-  const partida = modelos.deletePartida(id)
-  return partida 
-}
 const postPartida = () => {
   var lowerLimit = 600;
   var upperLimit = 3600;
@@ -69,10 +65,22 @@ const postPartida = () => {
   const matriz = Object.values(jugadores)
   
   const seleccion = matriz.sort(() => Math.random() - 0.5).slice(0, 6);
+  
+  const jugadoresPartida = {};
 
-  const objeto_seleccion = Object.fromEntries(
-    seleccion.map(elemento => [elemento, jugadores[elemento]])
-  );
+  
+  for (let i = 0; i < seleccion.length; i++) {
+    jugadoresPartida[`${i+1}`] = seleccion[i];
+  }
+  
+  
+  const juegos = modelos.getJuegos();
+  const claves = Object.keys(juegos);
+
+  const indiceAleatorio = Math.floor(Math.random() * claves.length);
+  const claveAleatoria = claves[indiceAleatorio];
+  const juego = juegos[claveAleatoria];
+
 
   const idPartida = uuid()
   const fecha = new Date().toLocaleDateString()
@@ -80,10 +88,11 @@ const postPartida = () => {
 
   const newPartida = {
     idPartida,
+    juego,
     fecha,
     finalizada,
     duracion,
-    objeto_seleccion
+    jugadoresPartida
   }
 
   if (modelos.getPartida(newPartida.idPartida)) {
@@ -92,13 +101,23 @@ const postPartida = () => {
   const insertedPartida = modelos.postPartida(newPartida)
   return insertedPartida;
 }
+
+//**** Servicios juegos ****
+
+const getJuegos = () => {
+  const juegos = modelos.getJuegos()
+  return juegos
+}
+const getJuego = (nombre) => {
+  const juego = modelos.getJuego(nombre)
+  return juego
+}
+
 module.exports = {
-    getJugadores,
-    postJugador,
-    getJugador,
-    deleteJugador,
-    getPartidas,
-    getPartida,
-    postPartida,
-    deletePartida
+    getJugadores,postJugador,getJugador,deleteJugador,
+
+    getPartidas,getPartida,postPartida,
+
+    getJuegos,getJuego,
+
 }

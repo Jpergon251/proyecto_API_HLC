@@ -59,14 +59,42 @@ const postPartida= (req, res, next) =>{
     }
     res.send(newPartida);
 }
+const getPartida = (req, res, next) =>{
+    const {part} = req.params
+    const partida = services.getPartida(part)
+
+    if (!partida){
+        res.status(404).send("NO HAY PARTIDA")
+        return
+    }
+    res.send(partida)
+}
+
+// **** Controllers Juegos ****
+
+const getJuegos = (req, res, next) => {
+    const juegos = services.getJuegos();
+    if (!juegos) {
+        res.status(404).send("NO HAY JUEGOS");
+        return;
+      }
+      res.send(juegos);
+}
+const getJuego = (req,res,next) => {
+    const {game} = req.params
+    const juego = services.getJuego(game)
+
+    if (!juego){
+        res.status(404).send("NO HAY JUEGO")
+        return
+    }
+    res.send(juego)
+}
 module.exports = {
-    getJugadores,
-    postJugador,
-    getJugador,
-    deleteJugador,
-    getPartidas,
-    postPartida,
-    // getPartida,
-    // deletePartida
+    getJugadores,postJugador,getJugador,deleteJugador,
+    
+    getPartidas,postPartida,getPartida,
+
+    getJuegos,getJuego
 
 }
