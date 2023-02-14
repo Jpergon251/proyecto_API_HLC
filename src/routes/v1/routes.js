@@ -12,12 +12,12 @@ router.route("/partidas")
   .post(controllers.postPartida); //INSERT PARTIDA)
 
   
-router.route("/:jug")
+router.route("/jugadores/:jug")
     .get(controllers.getJugador) //GET ONE PRODUCT
     .delete(controllers.deleteJugador) //DELETE ONE PRODUCT
     .put() //UPDATE ONE PRODUT
 
-router.route("/:part")
+router.route("/partidas/:part")
     .get()
     .delete()
     .put()
