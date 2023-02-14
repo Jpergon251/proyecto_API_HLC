@@ -6,6 +6,6 @@ const routes = require("./routes")
 router.get("/", (req, res, next)=>{
     res.send("Hola Mundo")
 })
-router.use("/jugadores", routes.router)
+router.use("/", routes.router)
 
 module.exports.router = router

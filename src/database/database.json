@@ -1,1 +1,93 @@
-{"jugadores":{"faker": {"nombre": "faker", "edad": 20, "horasJugadas":30000}}}
+{
+  "jugadores": {
+    "faker": {
+      "nombre": "faker",
+      "edad": 20,
+      "horasJugadas": 30000
+    },
+    "Ibai": {
+      "nombre": "Ibai",
+      "edad": 28,
+      "horasJugadas": 9712
+    },
+    "Rubius": {
+      "nombre": "Rubius",
+      "edad": 32,
+      "horasJugadas": 3570
+    },
+    "TheAntonio": {
+      "nombre": "TheAntonio",
+      "edad": 32,
+      "horasJugadas": 4757
+    },
+    "Abby": {
+      "nombre": "Abby",
+      "edad": 20,
+      "horasJugadas": 9997
+    },
+    "Nissaxter": {
+      "nombre": "Nissaxter",
+      "edad": 22,
+      "horasJugadas": 3107
+    },
+    "Karches": {
+      "nombre": "Karches",
+      "edad": 24,
+      "horasJugadas": 9001
+    },
+    "Auronplay": {
+      "nombre": "Auronplay",
+      "edad": 40,
+      "horasJugadas": 2950
+    },
+    "ElXocas": {
+      "nombre": "ElXocas",
+      "edad": 30,
+      "horasJugadas": 2339
+    },
+    "AlexElCapo": {
+      "nombre": "AlexElCapo",
+      "edad": 34,
+      "horasJugadas": 9979
+    }
+  },
+  "partidas": {
+    "68c9d370-ac4d-11ed-9972-01809f243697": {
+      "idPartida": "68c9d370-ac4d-11ed-9972-01809f243697",
+      "fecha": "14/2/2023",
+      "finalizada": false,
+      "duracion": 3305,
+      "objeto_seleccion": {}
+    },
+    "76915a50-ac4d-11ed-ad5b-3ffa6cc10097": {
+      "idPartida": "76915a50-ac4d-11ed-ad5b-3ffa6cc10097",
+      "fecha": "14/2/2023",
+      "finalizada": false,
+      "duracion": 1646,
+      "objeto_seleccion": {}
+    },
+    "95816d60-ac4d-11ed-b481-8f7d0afb72e5": {
+      "idPartida": "95816d60-ac4d-11ed-b481-8f7d0afb72e5",
+      "fecha": "14/2/2023",
+      "finalizada": false,
+      "duracion": 3186,
+      "objeto_seleccion": {}
+    },
+    "96c2ee10-ac4d-11ed-9346-431488168cb3": {
+      "idPartida": "96c2ee10-ac4d-11ed-9346-431488168cb3",
+      "fecha": "14/2/2023",
+      "finalizada": false,
+      "duracion": 2718,
+      "objeto_seleccion": {}
+    },
+    "9785a1d0-ac4d-11ed-908c-619ef6f212e1": {
+      "idPartida": "9785a1d0-ac4d-11ed-908c-619ef6f212e1",
+      "fecha": "14/2/2023",
+      "finalizada": false,
+      "duracion": 1678,
+      "objeto_seleccion": {}
+    }
+  },
+  "juegos": {},
+  "juegoPartida": {}
+}
