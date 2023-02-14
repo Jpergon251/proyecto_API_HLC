@@ -1,29 +1,39 @@
-const authenticationService = require('../services/authenticationService')
+const authenticationService = require("../services/authenticationService")
 
-const login = (req , res, next) => {
 
-    const {email, password} = req.body
-    const {cookies} = req
+const login = (req, res, next) => {
+  
+    //0. Obtenemos los diferentes datos de la petición
+  const { email, password } = req.body;
+  const { cookies } = req;
 
-    if (!email && !password && !cookies.sessionId) {
-        res.status(401).send({mensaje: 'No autorizado'})
+  if (!email && !password && !cookies.sessionId) {
+    res.status(401).send({ mensaje: "NO AUTORIZADO" });
+    return;
+  }
+
+  //1º Comprobar si email y password están en el sistema
+  if(email && password){
+    //COMPROBAMOS EMAIL Y PASSWORD
+    const credenciales = {
+        email,
+        password
     }
-    if (email && password) {
-        const credenciales = {
-            email,
-            password
-        }
-        const idUserLogueado = authenticationService.checkUser(credenciales)
-        if(!idUserLogueado) {
-            res.status(401).send({mensaje: 'No autorizado'})
-            return;
-        }
-        const sessionId = authenticationService.generateSessionId(idUserLogueado)
-        req.cookie("sessionId", {httpOnly: true })
-        next()
+    const idUserLogueado = authenticationService.checkUser(credenciales)
+    if(!idUserLogueado){
+        res.status(401).send({ mensaje: "NO AUTORIZADO" });
+        return;
     }
-}
 
-module.exports ={
-    login
-}
+    //GENERAR UN SESSIONID, meterlo en la cookie y mandarlo al cliente
+    const sessionId = authenticationService.generateSessionId(idUserLogueado)
+    res.cookie("sessionId", sessionId, {httpOnly: true})
+    next()
+  } else if (cookies.sessionId) {
+    
+  }
+};
+
+module.exports = {
+  login,
+};
