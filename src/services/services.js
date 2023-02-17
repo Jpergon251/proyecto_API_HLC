@@ -84,13 +84,13 @@ const postPartida = () => {
 
   const idPartida = uuid()
   const fecha = new Date().toLocaleDateString()
-  const finalizada = false
+  const victoria = Math.random() < 0.5;
 
   const newPartida = {
     idPartida,
     juego,
     fecha,
-    finalizada,
+    victoria,
     duracion,
     jugadoresPartida
   }

@@ -52,36 +52,36 @@
     }
   },
   "partidas": {
-    "e6e62da0-adf9-11ed-9fd5-7bd46115b4b2": {
-      "idPartida": "e6e62da0-adf9-11ed-9fd5-7bd46115b4b2",
+    "8acfbc60-ae9a-11ed-9577-cd164055d75e": {
+      "idPartida": "8acfbc60-ae9a-11ed-9577-cd164055d75e",
       "juego": {
-        "nombre": "CS:GO",
-        "descripcion": "Counter-Strike: Global Offensive (CS:GO) amplía el juego de acción por equipos del que fue pionero cuando salió hace más de 20 años. CS:GO incluye nuevos mapas, personajes, armas y modos de juego, y ofrece versiones actualizadas del contenido clásico de Counter-Strike (de_dust2, etc.).«Counter-Strike sorprendió a la industria de los videojuegos cuando el insólito mod se convirtió en el juego de acción en línea para PC más jugado del mundo casi inmediatamente después de su lanzamiento en agosto de 1999», dijo Doug Lombardi, de Valve. «Durante los últimos 12 años, se ha mantenido como uno de los títulos más jugados del mundo, ha ocupado un papel protagonista en los torneos de videojuegos competitivos y ha vendido más de 25 millones de copias de la franquicia en todo el mundo. CS:GO promete ampliar la galardonada jugabilidad de Counter-Strike y ofrecérsela tanto a los jugadores de PC como a los de consolas de nueva generación y de Mac».",
-        "image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg?t=1668125812"
+        "nombre": "Overwatch 2",
+        "descripcion": "Overwatch 2 es un juego de acción en equipo gratuito ambientado en un futuro optimista en el que todas las partidas presentan una refriega definitiva 5c5. Juega como una luchadora por la libertad que salta en el tiempo, un DJ que arrea a base de ritmos o uno de los más de 30 héroes únicos en batallas en diferentes ubicaciones de todo el mundo.",
+        "image": "https://i.ytimg.com/vi/PSucU14Iogw/maxresdefault.jpg"
       },
-      "fecha": "16/2/2023",
-      "finalizada": false,
-      "duracion": 1569,
+      "fecha": "17/2/2023",
+      "victoria": false,
+      "duracion": 2169,
       "jugadoresPartida": {
         "1": {
+          "nombre": "Auronplay",
+          "edad": 40,
+          "horasJugadas": 2950
+        },
+        "2": {
+          "nombre": "Ibai",
+          "edad": 28,
+          "horasJugadas": 9712
+        },
+        "3": {
           "nombre": "faker",
           "edad": 20,
           "horasJugadas": 30000
         },
-        "2": {
+        "4": {
           "nombre": "Karches",
           "edad": 24,
           "horasJugadas": 9001
-        },
-        "3": {
-          "nombre": "AlexElCapo",
-          "edad": 34,
-          "horasJugadas": 9979
-        },
-        "4": {
-          "nombre": "Ibai",
-          "edad": 28,
-          "horasJugadas": 9712
         },
         "5": {
           "nombre": "Rubius",
@@ -89,65 +89,65 @@
           "horasJugadas": 3570
         },
         "6": {
+          "nombre": "ElXocas",
+          "edad": 30,
+          "horasJugadas": 2339
+        }
+      }
+    },
+    "0627d0f0-ae9b-11ed-a373-ab99a15d6df7": {
+      "idPartida": "0627d0f0-ae9b-11ed-a373-ab99a15d6df7",
+      "juego": {
+        "nombre": "CS:GO",
+        "descripcion": "Counter-Strike: Global Offensive (CS:GO) amplía el juego de acción por equipos del que fue pionero cuando salió hace más de 20 años. CS:GO incluye nuevos mapas, personajes, armas y modos de juego, y ofrece versiones actualizadas del contenido clásico de Counter-Strike (de_dust2, etc.).«Counter-Strike sorprendió a la industria de los videojuegos cuando el insólito mod se convirtió en el juego de acción en línea para PC más jugado del mundo casi inmediatamente después de su lanzamiento en agosto de 1999», dijo Doug Lombardi, de Valve. «Durante los últimos 12 años, se ha mantenido como uno de los títulos más jugados del mundo, ha ocupado un papel protagonista en los torneos de videojuegos competitivos y ha vendido más de 25 millones de copias de la franquicia en todo el mundo. CS:GO promete ampliar la galardonada jugabilidad de Counter-Strike y ofrecérsela tanto a los jugadores de PC como a los de consolas de nueva generación y de Mac».",
+        "image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg?t=1668125812"
+      },
+      "fecha": "17/2/2023",
+      "victoria": true,
+      "duracion": 3185,
+      "jugadoresPartida": {
+        "1": {
+          "nombre": "Karches",
+          "edad": 24,
+          "horasJugadas": 9001
+        },
+        "2": {
+          "nombre": "TheAntonio",
+          "edad": 32,
+          "horasJugadas": 4757
+        },
+        "3": {
+          "nombre": "faker",
+          "edad": 20,
+          "horasJugadas": 30000
+        },
+        "4": {
+          "nombre": "ElXocas",
+          "edad": 30,
+          "horasJugadas": 2339
+        },
+        "5": {
+          "nombre": "AlexElCapo",
+          "edad": 34,
+          "horasJugadas": 9979
+        },
+        "6": {
           "nombre": "Abby",
           "edad": 20,
           "horasJugadas": 9997
         }
       }
     },
-    "e8c43c70-adf9-11ed-b618-a909874d6ee9": {
-      "idPartida": "e8c43c70-adf9-11ed-b618-a909874d6ee9",
+    "0661ccb0-ae9b-11ed-9b60-f57453bac3ee": {
+      "idPartida": "0661ccb0-ae9b-11ed-9b60-f57453bac3ee",
       "juego": {
         "nombre": "League of Legends",
         "descripcion": "League of Legends es un juego de estrategia por equipos en el que dos equipos de cinco campeones se enfrentan para ver quién destruye antes la base del otro. Elige de entre un elenco de 140 campeones para realizar jugadas épicas, asesinar rivales y derribar torretas para alzarte con la victoria.",
         "image": "https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2022/8/1/ksfga6rlx2ugfhjd9vnk/league-of-legends"
       },
-      "fecha": "16/2/2023",
-      "finalizada": false,
-      "duracion": 3579,
-      "jugadoresPartida": {
-        "1": {
-          "nombre": "TheAntonio",
-          "edad": 32,
-          "horasJugadas": 4757
-        },
-        "2": {
-          "nombre": "faker",
-          "edad": 20,
-          "horasJugadas": 30000
-        },
-        "3": {
-          "nombre": "Nissaxter",
-          "edad": 22,
-          "horasJugadas": 3107
-        },
-        "4": {
-          "nombre": "Ibai",
-          "edad": 28,
-          "horasJugadas": 9712
-        },
-        "5": {
-          "nombre": "Abby",
-          "edad": 20,
-          "horasJugadas": 9997
-        },
-        "6": {
-          "nombre": "Karches",
-          "edad": 24,
-          "horasJugadas": 9001
-        }
-      }
-    },
-    "ea0e96c0-adf9-11ed-a853-8dbf15abad58": {
-      "idPartida": "ea0e96c0-adf9-11ed-a853-8dbf15abad58",
-      "juego": {
-        "nombre": "Overwatch 2",
-        "descripcion": "Overwatch 2 es un juego de acción en equipo gratuito ambientado en un futuro optimista en el que todas las partidas presentan una refriega definitiva 5c5. Juega como una luchadora por la libertad que salta en el tiempo, un DJ que arrea a base de ritmos o uno de los más de 30 héroes únicos en batallas en diferentes ubicaciones de todo el mundo.",
-        "image": "https://i.ytimg.com/vi/PSucU14Iogw/maxresdefault.jpg"
-      },
-      "fecha": "16/2/2023",
-      "finalizada": false,
-      "duracion": 1338,
+      "fecha": "17/2/2023",
+      "victoria": true,
+      "duracion": 1738,
       "jugadoresPartida": {
         "1": {
           "nombre": "AlexElCapo",
@@ -155,14 +155,14 @@
           "horasJugadas": 9979
         },
         "2": {
-          "nombre": "ElXocas",
-          "edad": 30,
-          "horasJugadas": 2339
+          "nombre": "Nissaxter",
+          "edad": 22,
+          "horasJugadas": 3107
         },
         "3": {
-          "nombre": "Karches",
-          "edad": 24,
-          "horasJugadas": 9001
+          "nombre": "Abby",
+          "edad": 20,
+          "horasJugadas": 9997
         },
         "4": {
           "nombre": "TheAntonio",
@@ -170,14 +170,831 @@
           "horasJugadas": 4757
         },
         "5": {
+          "nombre": "Rubius",
+          "edad": 32,
+          "horasJugadas": 3570
+        },
+        "6": {
+          "nombre": "Auronplay",
+          "edad": 40,
+          "horasJugadas": 2950
+        }
+      }
+    },
+    "330a4b70-ae9b-11ed-8135-b979e2e21758": {
+      "idPartida": "330a4b70-ae9b-11ed-8135-b979e2e21758",
+      "juego": {
+        "nombre": "CS:GO",
+        "descripcion": "Counter-Strike: Global Offensive (CS:GO) amplía el juego de acción por equipos del que fue pionero cuando salió hace más de 20 años. CS:GO incluye nuevos mapas, personajes, armas y modos de juego, y ofrece versiones actualizadas del contenido clásico de Counter-Strike (de_dust2, etc.).«Counter-Strike sorprendió a la industria de los videojuegos cuando el insólito mod se convirtió en el juego de acción en línea para PC más jugado del mundo casi inmediatamente después de su lanzamiento en agosto de 1999», dijo Doug Lombardi, de Valve. «Durante los últimos 12 años, se ha mantenido como uno de los títulos más jugados del mundo, ha ocupado un papel protagonista en los torneos de videojuegos competitivos y ha vendido más de 25 millones de copias de la franquicia en todo el mundo. CS:GO promete ampliar la galardonada jugabilidad de Counter-Strike y ofrecérsela tanto a los jugadores de PC como a los de consolas de nueva generación y de Mac».",
+        "image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg?t=1668125812"
+      },
+      "fecha": "17/2/2023",
+      "victoria": false,
+      "duracion": 2392,
+      "jugadoresPartida": {
+        "1": {
+          "nombre": "Karches",
+          "edad": 24,
+          "horasJugadas": 9001
+        },
+        "2": {
+          "nombre": "AlexElCapo",
+          "edad": 34,
+          "horasJugadas": 9979
+        },
+        "3": {
+          "nombre": "Rubius",
+          "edad": 32,
+          "horasJugadas": 3570
+        },
+        "4": {
+          "nombre": "Abby",
+          "edad": 20,
+          "horasJugadas": 9997
+        },
+        "5": {
+          "nombre": "Auronplay",
+          "edad": 40,
+          "horasJugadas": 2950
+        },
+        "6": {
+          "nombre": "TheAntonio",
+          "edad": 32,
+          "horasJugadas": 4757
+        }
+      }
+    },
+    "339c2b30-ae9b-11ed-aef6-6da53ad1bb73": {
+      "idPartida": "339c2b30-ae9b-11ed-aef6-6da53ad1bb73",
+      "juego": {
+        "nombre": "CS:GO",
+        "descripcion": "Counter-Strike: Global Offensive (CS:GO) amplía el juego de acción por equipos del que fue pionero cuando salió hace más de 20 años. CS:GO incluye nuevos mapas, personajes, armas y modos de juego, y ofrece versiones actualizadas del contenido clásico de Counter-Strike (de_dust2, etc.).«Counter-Strike sorprendió a la industria de los videojuegos cuando el insólito mod se convirtió en el juego de acción en línea para PC más jugado del mundo casi inmediatamente después de su lanzamiento en agosto de 1999», dijo Doug Lombardi, de Valve. «Durante los últimos 12 años, se ha mantenido como uno de los títulos más jugados del mundo, ha ocupado un papel protagonista en los torneos de videojuegos competitivos y ha vendido más de 25 millones de copias de la franquicia en todo el mundo. CS:GO promete ampliar la galardonada jugabilidad de Counter-Strike y ofrecérsela tanto a los jugadores de PC como a los de consolas de nueva generación y de Mac».",
+        "image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg?t=1668125812"
+      },
+      "fecha": "17/2/2023",
+      "victoria": false,
+      "duracion": 1600,
+      "jugadoresPartida": {
+        "1": {
+          "nombre": "TheAntonio",
+          "edad": 32,
+          "horasJugadas": 4757
+        },
+        "2": {
+          "nombre": "Rubius",
+          "edad": 32,
+          "horasJugadas": 3570
+        },
+        "3": {
+          "nombre": "ElXocas",
+          "edad": 30,
+          "horasJugadas": 2339
+        },
+        "4": {
+          "nombre": "Nissaxter",
+          "edad": 22,
+          "horasJugadas": 3107
+        },
+        "5": {
+          "nombre": "Karches",
+          "edad": 24,
+          "horasJugadas": 9001
+        },
+        "6": {
+          "nombre": "Abby",
+          "edad": 20,
+          "horasJugadas": 9997
+        }
+      }
+    },
+    "33d822c0-ae9b-11ed-822e-93018191861d": {
+      "idPartida": "33d822c0-ae9b-11ed-822e-93018191861d",
+      "juego": {
+        "nombre": "League of Legends",
+        "descripcion": "League of Legends es un juego de estrategia por equipos en el que dos equipos de cinco campeones se enfrentan para ver quién destruye antes la base del otro. Elige de entre un elenco de 140 campeones para realizar jugadas épicas, asesinar rivales y derribar torretas para alzarte con la victoria.",
+        "image": "https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2022/8/1/ksfga6rlx2ugfhjd9vnk/league-of-legends"
+      },
+      "fecha": "17/2/2023",
+      "victoria": false,
+      "duracion": 2274,
+      "jugadoresPartida": {
+        "1": {
+          "nombre": "AlexElCapo",
+          "edad": 34,
+          "horasJugadas": 9979
+        },
+        "2": {
+          "nombre": "faker",
+          "edad": 20,
+          "horasJugadas": 30000
+        },
+        "3": {
           "nombre": "Ibai",
           "edad": 28,
           "horasJugadas": 9712
+        },
+        "4": {
+          "nombre": "Rubius",
+          "edad": 32,
+          "horasJugadas": 3570
+        },
+        "5": {
+          "nombre": "Karches",
+          "edad": 24,
+          "horasJugadas": 9001
+        },
+        "6": {
+          "nombre": "ElXocas",
+          "edad": 30,
+          "horasJugadas": 2339
+        }
+      }
+    },
+    "340dd8c0-ae9b-11ed-954d-937eb1f12555": {
+      "idPartida": "340dd8c0-ae9b-11ed-954d-937eb1f12555",
+      "juego": {
+        "nombre": "CS:GO",
+        "descripcion": "Counter-Strike: Global Offensive (CS:GO) amplía el juego de acción por equipos del que fue pionero cuando salió hace más de 20 años. CS:GO incluye nuevos mapas, personajes, armas y modos de juego, y ofrece versiones actualizadas del contenido clásico de Counter-Strike (de_dust2, etc.).«Counter-Strike sorprendió a la industria de los videojuegos cuando el insólito mod se convirtió en el juego de acción en línea para PC más jugado del mundo casi inmediatamente después de su lanzamiento en agosto de 1999», dijo Doug Lombardi, de Valve. «Durante los últimos 12 años, se ha mantenido como uno de los títulos más jugados del mundo, ha ocupado un papel protagonista en los torneos de videojuegos competitivos y ha vendido más de 25 millones de copias de la franquicia en todo el mundo. CS:GO promete ampliar la galardonada jugabilidad de Counter-Strike y ofrecérsela tanto a los jugadores de PC como a los de consolas de nueva generación y de Mac».",
+        "image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg?t=1668125812"
+      },
+      "fecha": "17/2/2023",
+      "victoria": false,
+      "duracion": 1870,
+      "jugadoresPartida": {
+        "1": {
+          "nombre": "TheAntonio",
+          "edad": 32,
+          "horasJugadas": 4757
+        },
+        "2": {
+          "nombre": "Karches",
+          "edad": 24,
+          "horasJugadas": 9001
+        },
+        "3": {
+          "nombre": "ElXocas",
+          "edad": 30,
+          "horasJugadas": 2339
+        },
+        "4": {
+          "nombre": "Auronplay",
+          "edad": 40,
+          "horasJugadas": 2950
+        },
+        "5": {
+          "nombre": "AlexElCapo",
+          "edad": 34,
+          "horasJugadas": 9979
         },
         "6": {
           "nombre": "faker",
           "edad": 20,
           "horasJugadas": 30000
+        }
+      }
+    },
+    "340f5f60-ae9b-11ed-954d-937eb1f12555": {
+      "idPartida": "340f5f60-ae9b-11ed-954d-937eb1f12555",
+      "juego": {
+        "nombre": "League of Legends",
+        "descripcion": "League of Legends es un juego de estrategia por equipos en el que dos equipos de cinco campeones se enfrentan para ver quién destruye antes la base del otro. Elige de entre un elenco de 140 campeones para realizar jugadas épicas, asesinar rivales y derribar torretas para alzarte con la victoria.",
+        "image": "https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2022/8/1/ksfga6rlx2ugfhjd9vnk/league-of-legends"
+      },
+      "fecha": "17/2/2023",
+      "victoria": false,
+      "duracion": 3282,
+      "jugadoresPartida": {
+        "1": {
+          "nombre": "TheAntonio",
+          "edad": 32,
+          "horasJugadas": 4757
+        },
+        "2": {
+          "nombre": "ElXocas",
+          "edad": 30,
+          "horasJugadas": 2339
+        },
+        "3": {
+          "nombre": "Ibai",
+          "edad": 28,
+          "horasJugadas": 9712
+        },
+        "4": {
+          "nombre": "AlexElCapo",
+          "edad": 34,
+          "horasJugadas": 9979
+        },
+        "5": {
+          "nombre": "faker",
+          "edad": 20,
+          "horasJugadas": 30000
+        },
+        "6": {
+          "nombre": "Abby",
+          "edad": 20,
+          "horasJugadas": 9997
+        }
+      }
+    },
+    "370ce7f0-ae9b-11ed-944d-295c14833b09": {
+      "idPartida": "370ce7f0-ae9b-11ed-944d-295c14833b09",
+      "juego": {
+        "nombre": "League of Legends",
+        "descripcion": "League of Legends es un juego de estrategia por equipos en el que dos equipos de cinco campeones se enfrentan para ver quién destruye antes la base del otro. Elige de entre un elenco de 140 campeones para realizar jugadas épicas, asesinar rivales y derribar torretas para alzarte con la victoria.",
+        "image": "https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2022/8/1/ksfga6rlx2ugfhjd9vnk/league-of-legends"
+      },
+      "fecha": "17/2/2023",
+      "victoria": false,
+      "duracion": 3528,
+      "jugadoresPartida": {
+        "1": {
+          "nombre": "Nissaxter",
+          "edad": 22,
+          "horasJugadas": 3107
+        },
+        "2": {
+          "nombre": "Auronplay",
+          "edad": 40,
+          "horasJugadas": 2950
+        },
+        "3": {
+          "nombre": "Ibai",
+          "edad": 28,
+          "horasJugadas": 9712
+        },
+        "4": {
+          "nombre": "faker",
+          "edad": 20,
+          "horasJugadas": 30000
+        },
+        "5": {
+          "nombre": "AlexElCapo",
+          "edad": 34,
+          "horasJugadas": 9979
+        },
+        "6": {
+          "nombre": "Rubius",
+          "edad": 32,
+          "horasJugadas": 3570
+        }
+      }
+    },
+    "3a185330-ae9b-11ed-bfc9-89281e58339c": {
+      "idPartida": "3a185330-ae9b-11ed-bfc9-89281e58339c",
+      "juego": {
+        "nombre": "CS:GO",
+        "descripcion": "Counter-Strike: Global Offensive (CS:GO) amplía el juego de acción por equipos del que fue pionero cuando salió hace más de 20 años. CS:GO incluye nuevos mapas, personajes, armas y modos de juego, y ofrece versiones actualizadas del contenido clásico de Counter-Strike (de_dust2, etc.).«Counter-Strike sorprendió a la industria de los videojuegos cuando el insólito mod se convirtió en el juego de acción en línea para PC más jugado del mundo casi inmediatamente después de su lanzamiento en agosto de 1999», dijo Doug Lombardi, de Valve. «Durante los últimos 12 años, se ha mantenido como uno de los títulos más jugados del mundo, ha ocupado un papel protagonista en los torneos de videojuegos competitivos y ha vendido más de 25 millones de copias de la franquicia en todo el mundo. CS:GO promete ampliar la galardonada jugabilidad de Counter-Strike y ofrecérsela tanto a los jugadores de PC como a los de consolas de nueva generación y de Mac».",
+        "image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg?t=1668125812"
+      },
+      "fecha": "17/2/2023",
+      "victoria": false,
+      "duracion": 2847,
+      "jugadoresPartida": {
+        "1": {
+          "nombre": "Auronplay",
+          "edad": 40,
+          "horasJugadas": 2950
+        },
+        "2": {
+          "nombre": "Abby",
+          "edad": 20,
+          "horasJugadas": 9997
+        },
+        "3": {
+          "nombre": "TheAntonio",
+          "edad": 32,
+          "horasJugadas": 4757
+        },
+        "4": {
+          "nombre": "AlexElCapo",
+          "edad": 34,
+          "horasJugadas": 9979
+        },
+        "5": {
+          "nombre": "Karches",
+          "edad": 24,
+          "horasJugadas": 9001
+        },
+        "6": {
+          "nombre": "Nissaxter",
+          "edad": 22,
+          "horasJugadas": 3107
+        }
+      }
+    },
+    "940df850-ae9f-11ed-8033-cbc723070310": {
+      "idPartida": "940df850-ae9f-11ed-8033-cbc723070310",
+      "juego": {
+        "nombre": "Overwatch 2",
+        "descripcion": "Overwatch 2 es un juego de acción en equipo gratuito ambientado en un futuro optimista en el que todas las partidas presentan una refriega definitiva 5c5. Juega como una luchadora por la libertad que salta en el tiempo, un DJ que arrea a base de ritmos o uno de los más de 30 héroes únicos en batallas en diferentes ubicaciones de todo el mundo.",
+        "image": "https://i.ytimg.com/vi/PSucU14Iogw/maxresdefault.jpg"
+      },
+      "fecha": "17/2/2023",
+      "victoria": true,
+      "duracion": 618,
+      "jugadoresPartida": {
+        "1": {
+          "nombre": "Abby",
+          "edad": 20,
+          "horasJugadas": 9997
+        },
+        "2": {
+          "nombre": "Auronplay",
+          "edad": 40,
+          "horasJugadas": 2950
+        },
+        "3": {
+          "nombre": "TheAntonio",
+          "edad": 32,
+          "horasJugadas": 4757
+        },
+        "4": {
+          "nombre": "ElXocas",
+          "edad": 30,
+          "horasJugadas": 2339
+        },
+        "5": {
+          "nombre": "Nissaxter",
+          "edad": 22,
+          "horasJugadas": 3107
+        },
+        "6": {
+          "nombre": "Rubius",
+          "edad": 32,
+          "horasJugadas": 3570
+        }
+      }
+    },
+    "0eba2000-aea1-11ed-81d3-85ca7109025b": {
+      "idPartida": "0eba2000-aea1-11ed-81d3-85ca7109025b",
+      "juego": {
+        "nombre": "League of Legends",
+        "descripcion": "League of Legends es un juego de estrategia por equipos en el que dos equipos de cinco campeones se enfrentan para ver quién destruye antes la base del otro. Elige de entre un elenco de 140 campeones para realizar jugadas épicas, asesinar rivales y derribar torretas para alzarte con la victoria.",
+        "image": "https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2022/8/1/ksfga6rlx2ugfhjd9vnk/league-of-legends"
+      },
+      "fecha": "17/2/2023",
+      "victoria": false,
+      "duracion": 1873,
+      "jugadoresPartida": {
+        "1": {
+          "nombre": "TheAntonio",
+          "edad": 32,
+          "horasJugadas": 4757
+        },
+        "2": {
+          "nombre": "Karches",
+          "edad": 24,
+          "horasJugadas": 9001
+        },
+        "3": {
+          "nombre": "Rubius",
+          "edad": 32,
+          "horasJugadas": 3570
+        },
+        "4": {
+          "nombre": "Ibai",
+          "edad": 28,
+          "horasJugadas": 9712
+        },
+        "5": {
+          "nombre": "AlexElCapo",
+          "edad": 34,
+          "horasJugadas": 9979
+        },
+        "6": {
+          "nombre": "Abby",
+          "edad": 20,
+          "horasJugadas": 9997
+        }
+      }
+    },
+    "11c31a40-aea1-11ed-bbf9-813e53647236": {
+      "idPartida": "11c31a40-aea1-11ed-bbf9-813e53647236",
+      "juego": {
+        "nombre": "Overwatch 2",
+        "descripcion": "Overwatch 2 es un juego de acción en equipo gratuito ambientado en un futuro optimista en el que todas las partidas presentan una refriega definitiva 5c5. Juega como una luchadora por la libertad que salta en el tiempo, un DJ que arrea a base de ritmos o uno de los más de 30 héroes únicos en batallas en diferentes ubicaciones de todo el mundo.",
+        "image": "https://i.ytimg.com/vi/PSucU14Iogw/maxresdefault.jpg"
+      },
+      "fecha": "17/2/2023",
+      "victoria": false,
+      "duracion": 3599,
+      "jugadoresPartida": {
+        "1": {
+          "nombre": "Auronplay",
+          "edad": 40,
+          "horasJugadas": 2950
+        },
+        "2": {
+          "nombre": "Nissaxter",
+          "edad": 22,
+          "horasJugadas": 3107
+        },
+        "3": {
+          "nombre": "TheAntonio",
+          "edad": 32,
+          "horasJugadas": 4757
+        },
+        "4": {
+          "nombre": "Karches",
+          "edad": 24,
+          "horasJugadas": 9001
+        },
+        "5": {
+          "nombre": "Rubius",
+          "edad": 32,
+          "horasJugadas": 3570
+        },
+        "6": {
+          "nombre": "ElXocas",
+          "edad": 30,
+          "horasJugadas": 2339
+        }
+      }
+    },
+    "1457f5f0-aea1-11ed-8e6b-25840de2eb64": {
+      "idPartida": "1457f5f0-aea1-11ed-8e6b-25840de2eb64",
+      "juego": {
+        "nombre": "Overwatch 2",
+        "descripcion": "Overwatch 2 es un juego de acción en equipo gratuito ambientado en un futuro optimista en el que todas las partidas presentan una refriega definitiva 5c5. Juega como una luchadora por la libertad que salta en el tiempo, un DJ que arrea a base de ritmos o uno de los más de 30 héroes únicos en batallas en diferentes ubicaciones de todo el mundo.",
+        "image": "https://i.ytimg.com/vi/PSucU14Iogw/maxresdefault.jpg"
+      },
+      "fecha": "17/2/2023",
+      "victoria": false,
+      "duracion": 716,
+      "jugadoresPartida": {
+        "1": {
+          "nombre": "Rubius",
+          "edad": 32,
+          "horasJugadas": 3570
+        },
+        "2": {
+          "nombre": "TheAntonio",
+          "edad": 32,
+          "horasJugadas": 4757
+        },
+        "3": {
+          "nombre": "faker",
+          "edad": 20,
+          "horasJugadas": 30000
+        },
+        "4": {
+          "nombre": "Nissaxter",
+          "edad": 22,
+          "horasJugadas": 3107
+        },
+        "5": {
+          "nombre": "Auronplay",
+          "edad": 40,
+          "horasJugadas": 2950
+        },
+        "6": {
+          "nombre": "Abby",
+          "edad": 20,
+          "horasJugadas": 9997
+        }
+      }
+    },
+    "6ae0d2c0-aea1-11ed-913f-c11742309e28": {
+      "idPartida": "6ae0d2c0-aea1-11ed-913f-c11742309e28",
+      "juego": {
+        "nombre": "CS:GO",
+        "descripcion": "Counter-Strike: Global Offensive (CS:GO) amplía el juego de acción por equipos del que fue pionero cuando salió hace más de 20 años. CS:GO incluye nuevos mapas, personajes, armas y modos de juego, y ofrece versiones actualizadas del contenido clásico de Counter-Strike (de_dust2, etc.).«Counter-Strike sorprendió a la industria de los videojuegos cuando el insólito mod se convirtió en el juego de acción en línea para PC más jugado del mundo casi inmediatamente después de su lanzamiento en agosto de 1999», dijo Doug Lombardi, de Valve. «Durante los últimos 12 años, se ha mantenido como uno de los títulos más jugados del mundo, ha ocupado un papel protagonista en los torneos de videojuegos competitivos y ha vendido más de 25 millones de copias de la franquicia en todo el mundo. CS:GO promete ampliar la galardonada jugabilidad de Counter-Strike y ofrecérsela tanto a los jugadores de PC como a los de consolas de nueva generación y de Mac».",
+        "image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg?t=1668125812"
+      },
+      "fecha": "17/2/2023",
+      "victoria": false,
+      "duracion": 2816,
+      "jugadoresPartida": {
+        "1": {
+          "nombre": "Karches",
+          "edad": 24,
+          "horasJugadas": 9001
+        },
+        "2": {
+          "nombre": "Rubius",
+          "edad": 32,
+          "horasJugadas": 3570
+        },
+        "3": {
+          "nombre": "Auronplay",
+          "edad": 40,
+          "horasJugadas": 2950
+        },
+        "4": {
+          "nombre": "Ibai",
+          "edad": 28,
+          "horasJugadas": 9712
+        },
+        "5": {
+          "nombre": "Nissaxter",
+          "edad": 22,
+          "horasJugadas": 3107
+        },
+        "6": {
+          "nombre": "AlexElCapo",
+          "edad": 34,
+          "horasJugadas": 9979
+        }
+      }
+    },
+    "73506650-aea1-11ed-a38a-8db6c3780de1": {
+      "idPartida": "73506650-aea1-11ed-a38a-8db6c3780de1",
+      "juego": {
+        "nombre": "Overwatch 2",
+        "descripcion": "Overwatch 2 es un juego de acción en equipo gratuito ambientado en un futuro optimista en el que todas las partidas presentan una refriega definitiva 5c5. Juega como una luchadora por la libertad que salta en el tiempo, un DJ que arrea a base de ritmos o uno de los más de 30 héroes únicos en batallas en diferentes ubicaciones de todo el mundo.",
+        "image": "https://i.ytimg.com/vi/PSucU14Iogw/maxresdefault.jpg"
+      },
+      "fecha": "17/2/2023",
+      "victoria": true,
+      "duracion": 1522,
+      "jugadoresPartida": {
+        "1": {
+          "nombre": "TheAntonio",
+          "edad": 32,
+          "horasJugadas": 4757
+        },
+        "2": {
+          "nombre": "Nissaxter",
+          "edad": 22,
+          "horasJugadas": 3107
+        },
+        "3": {
+          "nombre": "Auronplay",
+          "edad": 40,
+          "horasJugadas": 2950
+        },
+        "4": {
+          "nombre": "Abby",
+          "edad": 20,
+          "horasJugadas": 9997
+        },
+        "5": {
+          "nombre": "faker",
+          "edad": 20,
+          "horasJugadas": 30000
+        },
+        "6": {
+          "nombre": "Ibai",
+          "edad": 28,
+          "horasJugadas": 9712
+        }
+      }
+    },
+    "73818870-aea1-11ed-9639-435ef0e6b4f1": {
+      "idPartida": "73818870-aea1-11ed-9639-435ef0e6b4f1",
+      "juego": {
+        "nombre": "Overwatch 2",
+        "descripcion": "Overwatch 2 es un juego de acción en equipo gratuito ambientado en un futuro optimista en el que todas las partidas presentan una refriega definitiva 5c5. Juega como una luchadora por la libertad que salta en el tiempo, un DJ que arrea a base de ritmos o uno de los más de 30 héroes únicos en batallas en diferentes ubicaciones de todo el mundo.",
+        "image": "https://i.ytimg.com/vi/PSucU14Iogw/maxresdefault.jpg"
+      },
+      "fecha": "17/2/2023",
+      "victoria": true,
+      "duracion": 3080,
+      "jugadoresPartida": {
+        "1": {
+          "nombre": "faker",
+          "edad": 20,
+          "horasJugadas": 30000
+        },
+        "2": {
+          "nombre": "Ibai",
+          "edad": 28,
+          "horasJugadas": 9712
+        },
+        "3": {
+          "nombre": "Nissaxter",
+          "edad": 22,
+          "horasJugadas": 3107
+        },
+        "4": {
+          "nombre": "Rubius",
+          "edad": 32,
+          "horasJugadas": 3570
+        },
+        "5": {
+          "nombre": "Auronplay",
+          "edad": 40,
+          "horasJugadas": 2950
+        },
+        "6": {
+          "nombre": "Karches",
+          "edad": 24,
+          "horasJugadas": 9001
+        }
+      }
+    },
+    "73be9170-aea1-11ed-af4f-9dd0604f89db": {
+      "idPartida": "73be9170-aea1-11ed-af4f-9dd0604f89db",
+      "juego": {
+        "nombre": "Overwatch 2",
+        "descripcion": "Overwatch 2 es un juego de acción en equipo gratuito ambientado en un futuro optimista en el que todas las partidas presentan una refriega definitiva 5c5. Juega como una luchadora por la libertad que salta en el tiempo, un DJ que arrea a base de ritmos o uno de los más de 30 héroes únicos en batallas en diferentes ubicaciones de todo el mundo.",
+        "image": "https://i.ytimg.com/vi/PSucU14Iogw/maxresdefault.jpg"
+      },
+      "fecha": "17/2/2023",
+      "victoria": true,
+      "duracion": 1584,
+      "jugadoresPartida": {
+        "1": {
+          "nombre": "Karches",
+          "edad": 24,
+          "horasJugadas": 9001
+        },
+        "2": {
+          "nombre": "ElXocas",
+          "edad": 30,
+          "horasJugadas": 2339
+        },
+        "3": {
+          "nombre": "Rubius",
+          "edad": 32,
+          "horasJugadas": 3570
+        },
+        "4": {
+          "nombre": "Ibai",
+          "edad": 28,
+          "horasJugadas": 9712
+        },
+        "5": {
+          "nombre": "Auronplay",
+          "edad": 40,
+          "horasJugadas": 2950
+        },
+        "6": {
+          "nombre": "faker",
+          "edad": 20,
+          "horasJugadas": 30000
+        }
+      }
+    },
+    "73bff100-aea1-11ed-af4f-9dd0604f89db": {
+      "idPartida": "73bff100-aea1-11ed-af4f-9dd0604f89db",
+      "juego": {
+        "nombre": "League of Legends",
+        "descripcion": "League of Legends es un juego de estrategia por equipos en el que dos equipos de cinco campeones se enfrentan para ver quién destruye antes la base del otro. Elige de entre un elenco de 140 campeones para realizar jugadas épicas, asesinar rivales y derribar torretas para alzarte con la victoria.",
+        "image": "https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2022/8/1/ksfga6rlx2ugfhjd9vnk/league-of-legends"
+      },
+      "fecha": "17/2/2023",
+      "victoria": false,
+      "duracion": 2852,
+      "jugadoresPartida": {
+        "1": {
+          "nombre": "Karches",
+          "edad": 24,
+          "horasJugadas": 9001
+        },
+        "2": {
+          "nombre": "Abby",
+          "edad": 20,
+          "horasJugadas": 9997
+        },
+        "3": {
+          "nombre": "Rubius",
+          "edad": 32,
+          "horasJugadas": 3570
+        },
+        "4": {
+          "nombre": "ElXocas",
+          "edad": 30,
+          "horasJugadas": 2339
+        },
+        "5": {
+          "nombre": "Auronplay",
+          "edad": 40,
+          "horasJugadas": 2950
+        },
+        "6": {
+          "nombre": "TheAntonio",
+          "edad": 32,
+          "horasJugadas": 4757
+        }
+      }
+    },
+    "0ce50a80-aea4-11ed-9984-d308a50330ee": {
+      "idPartida": "0ce50a80-aea4-11ed-9984-d308a50330ee",
+      "juego": {
+        "nombre": "CS:GO",
+        "descripcion": "Counter-Strike: Global Offensive (CS:GO) amplía el juego de acción por equipos del que fue pionero cuando salió hace más de 20 años. CS:GO incluye nuevos mapas, personajes, armas y modos de juego, y ofrece versiones actualizadas del contenido clásico de Counter-Strike (de_dust2, etc.).«Counter-Strike sorprendió a la industria de los videojuegos cuando el insólito mod se convirtió en el juego de acción en línea para PC más jugado del mundo casi inmediatamente después de su lanzamiento en agosto de 1999», dijo Doug Lombardi, de Valve. «Durante los últimos 12 años, se ha mantenido como uno de los títulos más jugados del mundo, ha ocupado un papel protagonista en los torneos de videojuegos competitivos y ha vendido más de 25 millones de copias de la franquicia en todo el mundo. CS:GO promete ampliar la galardonada jugabilidad de Counter-Strike y ofrecérsela tanto a los jugadores de PC como a los de consolas de nueva generación y de Mac».",
+        "image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg?t=1668125812"
+      },
+      "fecha": "17/2/2023",
+      "victoria": false,
+      "duracion": 3581,
+      "jugadoresPartida": {
+        "1": {
+          "nombre": "Karches",
+          "edad": 24,
+          "horasJugadas": 9001
+        },
+        "2": {
+          "nombre": "faker",
+          "edad": 20,
+          "horasJugadas": 30000
+        },
+        "3": {
+          "nombre": "Ibai",
+          "edad": 28,
+          "horasJugadas": 9712
+        },
+        "4": {
+          "nombre": "AlexElCapo",
+          "edad": 34,
+          "horasJugadas": 9979
+        },
+        "5": {
+          "nombre": "Rubius",
+          "edad": 32,
+          "horasJugadas": 3570
+        },
+        "6": {
+          "nombre": "ElXocas",
+          "edad": 30,
+          "horasJugadas": 2339
+        }
+      }
+    },
+    "0ee40ed0-aea4-11ed-8531-abcec54d088c": {
+      "idPartida": "0ee40ed0-aea4-11ed-8531-abcec54d088c",
+      "juego": {
+        "nombre": "Overwatch 2",
+        "descripcion": "Overwatch 2 es un juego de acción en equipo gratuito ambientado en un futuro optimista en el que todas las partidas presentan una refriega definitiva 5c5. Juega como una luchadora por la libertad que salta en el tiempo, un DJ que arrea a base de ritmos o uno de los más de 30 héroes únicos en batallas en diferentes ubicaciones de todo el mundo.",
+        "image": "https://i.ytimg.com/vi/PSucU14Iogw/maxresdefault.jpg"
+      },
+      "fecha": "17/2/2023",
+      "victoria": true,
+      "duracion": 1422,
+      "jugadoresPartida": {
+        "1": {
+          "nombre": "Auronplay",
+          "edad": 40,
+          "horasJugadas": 2950
+        },
+        "2": {
+          "nombre": "Abby",
+          "edad": 20,
+          "horasJugadas": 9997
+        },
+        "3": {
+          "nombre": "faker",
+          "edad": 20,
+          "horasJugadas": 30000
+        },
+        "4": {
+          "nombre": "Nissaxter",
+          "edad": 22,
+          "horasJugadas": 3107
+        },
+        "5": {
+          "nombre": "Ibai",
+          "edad": 28,
+          "horasJugadas": 9712
+        },
+        "6": {
+          "nombre": "AlexElCapo",
+          "edad": 34,
+          "horasJugadas": 9979
+        }
+      }
+    },
+    "d72da8f0-aeb9-11ed-8308-d1330b4c4516": {
+      "idPartida": "d72da8f0-aeb9-11ed-8308-d1330b4c4516",
+      "juego": {
+        "nombre": "League of Legends",
+        "descripcion": "League of Legends es un juego de estrategia por equipos en el que dos equipos de cinco campeones se enfrentan para ver quién destruye antes la base del otro. Elige de entre un elenco de 140 campeones para realizar jugadas épicas, asesinar rivales y derribar torretas para alzarte con la victoria.",
+        "image": "https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2022/8/1/ksfga6rlx2ugfhjd9vnk/league-of-legends"
+      },
+      "fecha": "17/2/2023",
+      "victoria": true,
+      "duracion": 1941,
+      "jugadoresPartida": {
+        "1": {
+          "nombre": "TheAntonio",
+          "edad": 32,
+          "horasJugadas": 4757
+        },
+        "2": {
+          "nombre": "Rubius",
+          "edad": 32,
+          "horasJugadas": 3570
+        },
+        "3": {
+          "nombre": "Ibai",
+          "edad": 28,
+          "horasJugadas": 9712
+        },
+        "4": {
+          "nombre": "Abby",
+          "edad": 20,
+          "horasJugadas": 9997
+        },
+        "5": {
+          "nombre": "Karches",
+          "edad": 24,
+          "horasJugadas": 9001
+        },
+        "6": {
+          "nombre": "Auronplay",
+          "edad": 40,
+          "horasJugadas": 2950
         }
       }
     }

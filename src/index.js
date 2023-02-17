@@ -15,7 +15,6 @@ app.use((req, res, next) => {
 
 app.use("/v1/api", v1.router)
 
-
 const PORT = process.env.PORT || 3001
 app.listen(PORT, ()=>{
     console.log(`[INFO] Servidor escuchando en ${PORT} `)
