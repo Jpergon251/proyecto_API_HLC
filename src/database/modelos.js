@@ -56,6 +56,11 @@ const getPartidas = () => {
       )
       return newPartida;
   }
+
+  const deletePartida = (partida) => {
+    delete data.partidas[partida] 
+    return data.partidas
+  }
 //**** Peticiones Juegos *****
 
 const getJuegos = () => {
@@ -71,7 +76,7 @@ const getJuego = (nombre) => {
 module.exports = {
     getJugadores,postJugador,getJugador,deleteJugador,
     
-    getPartidas,getPartida,postPartida,
+    getPartidas,getPartida,postPartida,deletePartida,
     
     getJuegos,getJuego
 };

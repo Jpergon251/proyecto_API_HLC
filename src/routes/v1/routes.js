@@ -21,6 +21,7 @@ router.route("/partidas")
 
 router.route("/partidas/:part")
     .get(controllers.getPartida)
+    .delete(controllers.deletePartida); 
 
 router.route("/juegos")
   .get(controllers.getJuegos);

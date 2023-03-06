@@ -65,6 +65,10 @@ const postPartida = (idPartida,
   return insertedPartida;
 }
 
+const deletePartida = (partida) => {
+  const part = modelos.deletePartida(partida);
+  return part
+}
 //**** Servicios juegos ****
 
 const getJuegos = () => {
@@ -79,7 +83,7 @@ const getJuego = (nombre) => {
 module.exports = {
     getJugadores,postJugador,getJugador,deleteJugador,
 
-    getPartidas,getPartida,postPartida,
+    getPartidas,getPartida,postPartida,deletePartida,
 
     getJuegos,getJuego,
 

@@ -76,7 +76,16 @@ const getPartida = (req, res, next) =>{
     }
     res.send(partida)
 }
+const deletePartida = (req, res, next) =>{
+    const {part} = req.params;
 
+    const partida = services.deletePartida(part);
+    if (!partida) {
+        res.status(404).send("NO ENCONTRADO");
+        return;
+      }
+    res.send(partida);
+}
 // **** Controllers Juegos ****
 
 const getJuegos = (req, res, next) => {
@@ -100,7 +109,7 @@ const getJuego = (req,res,next) => {
 module.exports = {
     getJugadores,postJugador,getJugador,deleteJugador,
     
-    getPartidas,postPartida,getPartida,
+    getPartidas,postPartida,getPartida,deletePartida,
 
     getJuegos,getJuego
 
