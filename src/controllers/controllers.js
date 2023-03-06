@@ -10,12 +10,12 @@ const getJugadores = (req,res,next) => {
 }
 
 const postJugador = (req, res, next) => {
-    const {nombre, edad} = req.body;
-    if(!nombre || !edad) {
+    const {nombre, edad, horasJugadas} = req.body;
+    if(!nombre || !edad || !horasJugadas) {
         res.status(400).send("FALTAN DATOS")
         return
     }
-    const newJugador = services.postJugador(nombre, edad);
+    const newJugador = services.postJugador(nombre, edad, horasJugadas);
     if (!newJugador) {
         res.status(404).send("ENTRADA DUPLICADA");
         return
@@ -52,7 +52,14 @@ const getPartidas= (req, res, next) => {
       res.send(partidas);
 }
 const postPartida= (req, res, next) =>{
-    const newPartida = services.postPartida();
+    const { idPartida, juego, fecha, victoria, duracion, jugadoresPartida} = req.body;
+
+    if(!idPartida || !juego || !fecha || !victoria || !duracion || !jugadoresPartida) {
+        res.status(400).send("FALTAN DATOS")
+        return
+    }
+
+    const newPartida = services.postPartida(idPartida, juego, fecha, victoria, duracion, jugadoresPartida);
     if (!newPartida) {
         res.status(404).send("ENTRADA DUPLICADA");
         return

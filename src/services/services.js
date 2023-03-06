@@ -11,7 +11,7 @@ const postJugador= (nombre,edad,horasJugadas) => {
   const newJugador = {
     nombre,
     edad,
-    horasJugadas,
+    horasJugadas
   }
 
   if (modelos.getJugador(newJugador.nombre)) {
@@ -41,10 +41,12 @@ const getPartida = (id) => {
   const partida = modelos.getPartida(id)
   return partida 
 }
-const postPartida = (juego,
+const postPartida = (idPartida,
+  juego,
   fecha,
   victoria,
-  duracion,) => {
+  duracion,
+  jugadoresPartida) => {
   
 
   const newPartida = {

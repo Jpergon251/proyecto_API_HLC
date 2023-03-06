@@ -49,6 +49,16 @@
       "nombre": "AlexElCapo",
       "edad": 34,
       "horasJugadas": 9979
+    },
+    "Sercher": {
+      "nombre": "Sercher",
+      "edad": 34,
+      "horasJugadas": 1233
+    },
+    "sasasas": {
+      "nombre": "sasasas",
+      "edad": 34,
+      "horasJugadas": 1233
     }
   },
   "partidas": {
@@ -957,6 +967,49 @@
     },
     "d72da8f0-aeb9-11ed-8308-d1330b4c4516": {
       "idPartida": "d72da8f0-aeb9-11ed-8308-d1330b4c4516",
+      "juego": {
+        "nombre": "League of Legends",
+        "descripcion": "League of Legends es un juego de estrategia por equipos en el que dos equipos de cinco campeones se enfrentan para ver quién destruye antes la base del otro. Elige de entre un elenco de 140 campeones para realizar jugadas épicas, asesinar rivales y derribar torretas para alzarte con la victoria.",
+        "image": "https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2022/8/1/ksfga6rlx2ugfhjd9vnk/league-of-legends"
+      },
+      "fecha": "17/2/2023",
+      "victoria": true,
+      "duracion": 1941,
+      "jugadoresPartida": {
+        "1": {
+          "nombre": "TheAntonio",
+          "edad": 32,
+          "horasJugadas": 4757
+        },
+        "2": {
+          "nombre": "Rubius",
+          "edad": 32,
+          "horasJugadas": 3570
+        },
+        "3": {
+          "nombre": "Ibai",
+          "edad": 28,
+          "horasJugadas": 9712
+        },
+        "4": {
+          "nombre": "Abby",
+          "edad": 20,
+          "horasJugadas": 9997
+        },
+        "5": {
+          "nombre": "Karches",
+          "edad": 24,
+          "horasJugadas": 9001
+        },
+        "6": {
+          "nombre": "Auronplay",
+          "edad": 40,
+          "horasJugadas": 2950
+        }
+      }
+    },
+    "d72da123f0-aeb9-11ed-8308-d1330b4c4516": {
+      "idPartida": "d72da123f0-aeb9-11ed-8308-d1330b4c4516",
       "juego": {
         "nombre": "League of Legends",
         "descripcion": "League of Legends es un juego de estrategia por equipos en el que dos equipos de cinco campeones se enfrentan para ver quién destruye antes la base del otro. Elige de entre un elenco de 140 campeones para realizar jugadas épicas, asesinar rivales y derribar torretas para alzarte con la victoria.",
